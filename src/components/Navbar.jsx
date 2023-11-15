@@ -9,13 +9,13 @@ const HeadNavbar = () => {
     return (
         <>
             <div className="flex items-center justify-between border-b border-gray-400 py-8">
-                <a href="/">
+                <a className="logoBox" href="/">
                     <img className="logoImage" src="https://i.pinimg.com/originals/55/c3/38/55c33810bf31c06edd1410c61c1c2bda.png" alt="logo" />
                 </a>
                 <nav>
-                    <section className="MOBILE-MENU flex lg:hidden">
+                    <section className="MOBILE-MENU flex">
                         <div
-                            className="HAMBURGER-ICON space-y-2"
+                            className="HAMBURGER-ICON space-y-2 lg:hidden"
                             onClick={() => setIsNavOpen((prev) => !prev)}
                         >
                             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -46,10 +46,7 @@ const HeadNavbar = () => {
                                     <a href="/home">Home</a>
                                 </li>
                                 <li className="border-b border-gray-400 my-8 uppercase">
-                                    <a href="/about">About</a>
-                                </li>
-                                <li className="border-b border-gray-400 my-8 uppercase">
-                                    <a href="/services">Services</a>
+                                    <a href="/products">Products</a>
                                 </li>
                                 <li className="border-b border-gray-400 my-8 uppercase">
                                     <a href="/paymentoption">Payment Options</a>
@@ -60,19 +57,19 @@ const HeadNavbar = () => {
                                 <li className="border-b border-gray-400 my-8 uppercase">
                                     <a href="/gallery">Gallery</a>
                                 </li>
+                                <li className="border-b border-gray-400 my-8 uppercase">
+                                    <a href="/about">About</a>
+                                </li>
                             </ul>
                         </div>
                     </section>
 
-                    <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
+                    <ul className="navLinks DESKTOP-MENU hidden space-x-8 lg:flex">
                         <li>
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="/about">About</a>
-                        </li>
-                        <li>
-                            <a href="/services">Services</a>
+                            <a href="/products">Products</a>
                         </li>
                         <li>
                             <a href="/paymentoptions">Payment Options</a>
@@ -82,6 +79,9 @@ const HeadNavbar = () => {
                         </li>
                         <li>
                             <a href="/gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="/about">About</a>
                         </li>
                     </ul>
                 </nav>

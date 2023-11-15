@@ -1,4 +1,12 @@
+.logoBox {
+    margin-left: 3em;
+}
+
 .logoImage {
     height: 100px;
     width: 100px;
+}
+
+.navLinks {
+    margin-right: 3em;
 }

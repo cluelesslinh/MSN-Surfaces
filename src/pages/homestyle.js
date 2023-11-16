@@ -15,7 +15,7 @@ flex-wrap: wrap;
 `;
 
 export const TopTitle = styled.div`
-font-size 2.25em;
+font-size: 2.25em;
 letter-spacing: .175em;
 `;
 

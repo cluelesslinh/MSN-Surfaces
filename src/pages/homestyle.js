@@ -42,12 +42,3 @@ letter-spacing: .075em;
 padding: .25rem 0 .25rem 1rem;
 `;
 
-export const MPContainer = styled.div`
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin-top: 1em;
-@media screen and (max-width: 768px) {
-   margin: 0;
-}
-`;

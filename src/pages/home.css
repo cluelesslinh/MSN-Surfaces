@@ -6,23 +6,17 @@
     min-width: 100vmax;
     min-height: 100vh;
     object-fit: cover;
+    object-position: 0 -12em;
 }
 
 .mpTitle {
     font-size: 48px;
     margin: 1em;
-}
-
-.mpMaterialBox {
-    margin: 0 1em 0 1em;
+    text-align: center;
 }
 
 .mpMaterialImg {
     height: 200px;
     width: 300px;
     object-fit: cover;
-}
-
-.mpMaterialName {
-    justify-content: center;
 }

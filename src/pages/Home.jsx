@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
 
-            <section id="Sangsite">
+            <section id="Sangsite" className="col-12">
                 <Parallax className="homeTopBg" strength={700}>
                     <Background>
                         <img className="homeTopImg" src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="home-main" />
@@ -27,7 +27,7 @@ const Home = () => {
                 <div>
                     <div className="mpTitle">Most Popular</div>
 
-                    <MDBRow className="mpRow justify-content-center col-12">
+                    <MDBRow className="mpRow col-lg-10 col-12 offset-lg-1">
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
                             <img className="mpMaterialImg img-fluid" src="https://images.unsplash.com/photo-1634672050277-16639332c727?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             <div className="mpMaterialName">Quartz</div>

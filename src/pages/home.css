@@ -15,8 +15,34 @@
     text-align: center;
 }
 
+.mpRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .mpMaterialImg {
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 500px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .mpMaterialImg {
+        height: 200px;
+        width: 450px;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .mpMaterialImg {
+        height: 150px;
+        width: 350px;
+        object-fit: cover;
+    }
+
 }

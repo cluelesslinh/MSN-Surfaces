@@ -6,7 +6,6 @@
     min-width: 100vmax;
     min-height: 100vh;
     object-fit: cover;
-    object-position: 0 -12em;
 }
 
 .mpTitle {

@@ -8,7 +8,7 @@ const HeadNavbar = () => {
 
     return (
         <>
-            <div className="flex items-center justify-between border-b border-gray-400 py-8">
+            <div className="flex items-center justify-between py-8">
                 <a className="logoBox" href="/">
                     <img className="logoImage" src="https://i.pinimg.com/originals/55/c3/38/55c33810bf31c06edd1410c61c1c2bda.png" alt="logo" />
                 </a>
@@ -49,7 +49,7 @@ const HeadNavbar = () => {
                                     <a href="/products">Products</a>
                                 </li>
                                 <li className="border-b border-gray-400 my-8 uppercase">
-                                    <a href="/paymentoption">Payment Options</a>
+                                    <a href="/paymentoptions">Payment Options</a>
                                 </li>
                                 <li className="border-b border-gray-400 my-8 uppercase">
                                     <a href="/contact">Contact</a>

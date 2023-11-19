@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.sliderBox {
+    height: 75vmax;
+}
+
+.imageSlide {
+    width: 100vw;
+    height: 75vh;
+    object-fit: cover;
+}

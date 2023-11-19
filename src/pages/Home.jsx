@@ -7,7 +7,7 @@ import './home.css';
 
 const Home = () => {
     return (
-        <div>
+        <>
 
             <section id="Sangsite">
                 <Parallax className="homeTopBg" strength={700}>
@@ -57,7 +57,7 @@ const Home = () => {
 
             </section>
 
-        </div>
+        </>
     )
 }
 

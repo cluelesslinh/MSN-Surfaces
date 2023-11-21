@@ -30,27 +30,39 @@ const Home = () => {
                     <MDBRow className="mpRow col-lg-10 col-12 offset-lg-1">
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
                             <img className="mpMaterialImg img-fluid" src="https://images.unsplash.com/photo-1634672050277-16639332c727?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                            <div className="mpMaterialName">Quartz</div>
+                            <div className="mpMaterialNameBox">
+                                <div className="mpMaterialName">Quartz</div>
+                            </div>
                         </MDBCol>
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
                             <img className="mpMaterialImg img-fluid" src="https://images.unsplash.com/photo-1652918320907-f9ec8623ab30?q=80&w=1542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                            <div className="mpMaterialName">Quartzite</div>
+                            <div className="mpMaterialNameBox">
+                                <div className="mpMaterialName">Quartzite</div>
+                            </div>
                         </MDBCol>
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
                             <img className="mpMaterialImg img-fluid" src="https://images.unsplash.com/photo-1526868452228-6590028c2fac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                            <div className="mpMaterialName">Granite</div>
+                            <div className="mpMaterialNameBox">
+                                <div className="mpMaterialName">Granite</div>
+                            </div>
                         </MDBCol>
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
-                            <img className="mpMaterialImg img-fluid" src="https://images.unsplash.com/photo-1610276099118-c929abaaa80a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
-                            <div className="mpMaterialName">Marble</div>
+                            <img className="mpMaterialImg img-fluid" src="https://images.unsplash.com/photo-1610276099118-c929abaaa80a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            <div className="mpMaterialNameBox">
+                                <div className="mpMaterialName">Marble</div>
+                            </div>
                         </MDBCol>
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
                             <img className="mpMaterialImg img-flud" src="https://images.ctfassets.net/9aljq1ivr2md/cCuQg1kMS0cQtuI74REpu/f1dac52130250a0503520fc42a0163a4/prefab-vs-slab-countertops.jpg?w=1000&h=563&q=50&fm=webp" />
-                            <div className="mpMaterialName">Prefabricated</div>
+                            <div className="mpMaterialNameBox">
+                                <div className="mpMaterialName">Prefabricated</div>
+                            </div>
                         </MDBCol>
                         <MDBCol className="mpMaterialBox col-lg-4 col-5">
                             <img className="mpMaterialImg img-fluid" src="https://www.porcelain-tiles.co.uk/wp-content/uploads/delicato-bianco-kitchen-ambient-03-800x566.jpg" />
-                            <div className="mpMaterialName">Porcelain</div>
+                            <div className="mpMaterialNameBox">
+                                <div className="mpMaterialName">Porcelain</div>
+                            </div>
                         </MDBCol>
                     </MDBRow>
                 </div>

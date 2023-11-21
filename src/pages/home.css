@@ -26,6 +26,27 @@
     object-fit: cover;
 }
 
+.mpMaterialImg:hover {
+    cursor: pointer;
+}
+
+.mpMaterialNameBox {
+    background: rgba(109, 243, 227, .7);
+    transform: translate(0, -100%);
+}
+
+.mpMaterialNameBox:hover {
+    background: rgba(109, 243, 227, .9);
+    cursor: pointer;
+}
+
+.mpMaterialName {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
 
     .mpMaterialImg {

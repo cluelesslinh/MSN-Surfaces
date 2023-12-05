@@ -1,65 +1,63 @@
-import { Parallax, Background } from 'react-parallax';
-import {
-    CTTitleBox, CTTitle, CTDescriptionBox, CTDescription, CBTitleBox, CBTitle, CBDescriptionBox, CBDescription
-} from './productsstyle';
-import './products.css';
+import { Component } from "react";
+import Checkbox from "./Checkbox";
+import ProductList from "./ProductsList";
+import { productsList } from "../data.json";
+import "./countertops.css";
 
-const Products = () => {
-    return (
-        <>
+export default class App extends Component {
+    state = {
+        products: productsList,
+        categories: {
+            first: false,
+            second: false
+        }
+    };
 
-            <section id="Products">
-                <div className="productsMain flex justify-content-center">
+    handleChange = e => {
+        const { name } = e.target;
 
-                    <div className="productsBGBox">
-                        <Parallax className="countertopBG" strength={700}>
-                            <Background>
-                                <img className="countertopImg"
-                                    src="https://static.wixstatic.com/media/29ebc0_b968aad46c494edaa363cb99f6d08be0~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/29ebc0_b968aad46c494edaa363cb99f6d08be0~mv2.jpg"
-                                    alt="countertopOption" />
-                            </Background>
-                            <CTTitleBox>
-                                <CTTitle>Countertops</CTTitle>
-                            </CTTitleBox>
-                            <CTDescriptionBox>
-                                <CTDescription>countertops description</CTDescription>
-                            </CTDescriptionBox>
-                        </Parallax>
-                    </div>
+        this.setState(prevState => {
+            return {
+                categories: {
+                    ...prevState.categories,
+                    [name]: !prevState.categories[name]
+                }
+            };
+        });
+    };
 
-                    <div className="productsBGBox">
-                        <Parallax className="cabinetBG" strength={700}>
-                            <Background>
-                                <img className="cabinetImg"
-                                    src="https://vevano.com/cdn/shop/files/hero-cabinets.webp?v=1659013333"
-                                    alt="cabinetOption" />
-                            </Background>
-                            <CBTitleBox>
-                                <CBTitle>Cabinets</CBTitle>
-                            </CBTitleBox>
-                            <CBDescriptionBox>
-                                <CBDescription>cabinets description</CBDescription>
-                            </CBDescriptionBox>
-                        </Parallax>
-                    </div>
+    render() {
+        const checkedProducts = Object.entries(this.state.categories)
+            .filter(category => category[1])
+            .map(category => category[0]);
+        const filteredProducts = this.state.products.filter(({ category }) =>
+            checkedProducts.includes(category)
+        );
 
-                </div>
-            </section>
-
-            <section id="Countertops">
-                <div>
-                    <div className="CTtitle">Countertop Selection</div>
-                </div>
-            </section>
-
-            <section id="Cabinets">
-                <div>
-                    <div className="CBtitle">Cabinets Selection</div>
-                </div>
-            </section>
-
-        </>
-    )
+        return (
+            <div>
+                <Checkbox
+                    id="1"
+                    title="show first category products"
+                    name="first"
+                    checked={this.state.categories.first}
+                    handleChange={this.handleChange}
+                />
+                <Checkbox
+                    id="2"
+                    title="show second categor productsy"
+                    name="second"
+                    handleChange={this.handleChange}
+                    checked={this.state.categories.second}
+                />
+                <ProductList
+                    products={
+                        filteredProducts.length === 0
+                            ? this.state.products
+                            : filteredProducts
+                    }
+                />
+            </div>
+        );
+    }
 }
-
-export default Products

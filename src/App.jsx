@@ -7,9 +7,9 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/Gallery/Gallery';
 import PaymentOptions from './pages/PaymentOptions/PaymentOptions';
-import Products from './pages/Products';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Countertops from './pages/Countertops/countertops';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/countertops" element={<Countertops />} />
           <Route path="paymentoptions" element={<PaymentOptions />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />

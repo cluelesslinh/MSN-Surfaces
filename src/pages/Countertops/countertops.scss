@@ -1,7 +1,12 @@
+.countertopRow {
+    margin: 1em;
+}
+
 .countertopCardBox {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 1em;
 }
 
 .countertopImageCard {
@@ -9,5 +14,5 @@
 }
 
 .countertopTitle {
-    justify-content: center;
+    text-align: center;
 }

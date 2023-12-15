@@ -24,6 +24,7 @@ const App = () => {
           <Route path="paymentoptions" element={<PaymentOptions />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/countertops/:countertopId" />
         </Routes>
         <Footer />
       </BrowserRouter>

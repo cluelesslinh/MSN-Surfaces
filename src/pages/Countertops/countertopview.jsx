@@ -3,22 +3,22 @@ export const CountertopView = ({ countertop, onBackClick }) => {
     return (
         <div>
             <div>
-                <img className="img-fluid" src={countertop.image} />
+                <img className="img-fluid" src={countertop.Image} />
             </div>
             <div>
-                <span>{countertop.title}</span>
+                <span>{countertop.Title}</span>
             </div>
             <div>
                 <span>Color: </span>
-                <span>{countertop.color}</span>
+                <span>{countertop.Color}</span>
             </div>
             <div>
                 <span>Material: </span>
-                <span>{countertop.material}</span>
+                <span>{countertop.Material}</span>
             </div>
             <div>
                 <span>Description: </span>
-                <span>{countertop.description}</span>
+                <span>{countertop.Description}</span>
             </div>
             <button onClick={onBackClick}>Back</button>
         </div>

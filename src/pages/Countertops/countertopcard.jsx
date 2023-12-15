@@ -9,9 +9,9 @@ export const CountertopCard = ({ countertop, onCountertopClick }) => {
                 onCountertopClick(countertop);
             }}
         >
-            <img className="countertopImageCard img-fluid" src={countertop.Image} />
+            <img className="countertopImageCard img-fluid" src={countertop.image} />
             <div className="countertopTitleBox">
-                <div className="countertopTitle">{countertop.Title}</div>
+                <div className="countertopTitle">{countertop.title}</div>
             </div>
         </div>
 
@@ -20,11 +20,11 @@ export const CountertopCard = ({ countertop, onCountertopClick }) => {
 
 CountertopCard.propTypes = {
     countertop: PropTypes.shape({
-        Title: PropTypes.string,
-        Material: PropTypes.string,
-        Color: PropTypes.string,
-        Description: PropTypes.string,
-        Image: PropTypes.string
+        title: PropTypes.string,
+        material: PropTypes.string,
+        color: PropTypes.string,
+        description: PropTypes.string,
+        iamge: PropTypes.string
     }).isRequired,
     onCountertopClick: PropTypes.func.isRequired
 };

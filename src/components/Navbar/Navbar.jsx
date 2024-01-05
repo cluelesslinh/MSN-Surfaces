@@ -55,9 +55,6 @@ const HeadNavbar = () => {
                                     <a href="/contact">Contact</a>
                                 </li>
                                 <li className="border-b border-gray-400 my-8 uppercase">
-                                    <a href="/gallery">Gallery</a>
-                                </li>
-                                <li className="border-b border-gray-400 my-8 uppercase">
                                     <a href="/about">About</a>
                                 </li>
                             </ul>
@@ -76,9 +73,6 @@ const HeadNavbar = () => {
                         </li>
                         <li>
                             <a href="/contact">Contact</a>
-                        </li>
-                        <li>
-                            <a href="/gallery">Gallery</a>
                         </li>
                         <li>
                             <a href="/about">About</a>

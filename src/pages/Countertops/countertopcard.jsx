@@ -4,6 +4,7 @@ import './countertops.scss';
 
 export const CountertopCard = ({ countertop, onCountertopClick }) => {
     return (
+
         <div className="countertopCardBox"
             onClick={() => {
                 onCountertopClick(countertop);
@@ -22,9 +23,10 @@ CountertopCard.propTypes = {
     countertop: PropTypes.shape({
         title: PropTypes.string,
         material: PropTypes.string,
-        color: PropTypes.string,
+        primarycolor: PropTypes.string,
+        accentcolor: PropTypes.string,
         description: PropTypes.string,
-        iamge: PropTypes.string
+        image: PropTypes.string
     }).isRequired,
     onCountertopClick: PropTypes.func.isRequired
 };

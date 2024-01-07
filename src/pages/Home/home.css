@@ -14,33 +14,37 @@
     text-align: center;
 }
 
-.mpRow {
+.brandRow {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mpMaterialImg {
-    height: 250px;
-    width: 500px;
-    object-fit: cover;
+.brandImgBox {
+    display: flex;
+    justify-content: center;
 }
 
-.mpMaterialImg:hover {
+.brandImg {
+    height: 200px;
+    padding: 1em;
+}
+
+.brandImg:hover {
     cursor: pointer;
 }
 
-.mpMaterialNameBox {
+.brandNameBox {
     background: rgba(109, 243, 227, .7);
-    transform: translate(0, -100%);
+    transform: translate(0, 0);
 }
 
-.mpMaterialNameBox:hover {
+.brandNameBox:hover {
     background: rgba(109, 243, 227, .9);
     cursor: pointer;
 }
 
-.mpMaterialName {
+.brandName {
     color: white;
     font-size: 32px;
     font-weight: bold;
@@ -49,20 +53,16 @@
 
 @media screen and (max-width: 1024px) {
 
-    .mpMaterialImg {
+    .brandImg {
         height: 200px;
-        width: 450px;
-        object-fit: cover;
     }
 
 }
 
 @media screen and (max-width: 768px) {
 
-    .mpMaterialImg {
+    .brandImg {
         height: 150px;
-        width: 350px;
-        object-fit: cover;
     }
 
 }

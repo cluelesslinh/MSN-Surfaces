@@ -39,9 +39,9 @@ const Home = () => {
                             </a>
                         </MDBCol>
                         <MDBCol className="col-lg-4 col-md-5 col-8">
-                            <a href="https://www.sile-stone.com/countertops/" target="_blank" rel="noreferrer">
+                            <a href="https://www.cosentino.com/usa/silestone/countertops/" target="_blank" rel="noreferrer">
                                 <div className="brandImgBox">
-                                    <img className="brandImg img-fluid" src="https://www.sile-stone.com/images/central.webp" />
+                                    <img className="brandImg img-fluid" src="https://www.balduzzilumber.com/wp-content/uploads/silestone-logo.jpg" />
                                 </div>
                                 <div className="brandNameBox">
                                     <div className="brandName">Sile-Stone</div>

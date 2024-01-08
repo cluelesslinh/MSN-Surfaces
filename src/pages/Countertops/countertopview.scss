@@ -1,20 +1,73 @@
-.countertopBox {
-    display: flex;
-    justify-content: center;
-}
-
 .countertopViewTitle {
     font-size: 42px;
     text-align: center;
 }
 
-.countertopViewRow1 {
-    padding: 5% 5% 5% 5%;
+.countertopBox {
+    display: flex;
+    justify-content: center;
+    padding: 3% 10% 0 10%;
+}
+
+.countertopDetailBox {
+    padding: 0;
+}
+
+.detailBox {
+    padding: 2.5em 0 0 0;
+}
+
+.slabImg {
+    margin: 0 0 3% 0;
+}
+
+.countertopDetail {
+    font-weight: 600;
+    padding: 0 3% 0 0;
+}
+
+.descriptionTitle {
+    margin: 0 0 3% 0;
+    font-weight: 600;
+}
+
+.availabilityButton {
+    margin: 5% 0 0 0;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.availabilityButton:hover {
+    color: white;
+    background-color: #26C39F;
+}
+
+.countertopDetails {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3% 0;
+    text-align: center;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3%;
 }
 
 .backButton {
-    width: 100px;
-    text-align: center;
-    border: 2px solid black;
     cursor: pointer;
+    border: 2px solid black;
+    width: 10%;
+    font-weight: 600;
+}
+
+.backButton:hover {
+    color: white;
+    background-color: #26C39F;
 }

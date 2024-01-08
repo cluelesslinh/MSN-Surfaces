@@ -1165,6 +1165,7 @@ const Countertops = () => {
     return (
         <>
 
+            <div className="countertopsTitle">Natural Stone Selection</div>
             <MDBRow className="countertopRow justify-content-center">
                 {countertops.map((countertop) => (
                     <MDBCol className="col-xl-2 col-lg-3 col-md-4 col-6 " key={countertop.id}>

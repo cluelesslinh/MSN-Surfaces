@@ -4,7 +4,6 @@ import './countertops.scss';
 
 export const CountertopCard = ({ countertop, onCountertopClick }) => {
     return (
-
         <div className="countertopCardBox"
             onClick={() => {
                 onCountertopClick(countertop);
@@ -15,7 +14,6 @@ export const CountertopCard = ({ countertop, onCountertopClick }) => {
                 <div className="countertopTitle">{countertop.title}</div>
             </div>
         </div>
-
     );
 };
 

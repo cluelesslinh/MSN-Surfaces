@@ -8,7 +8,7 @@ import Contact from './pages/Contact/Contact';
 import PaymentOptions from './pages/PaymentOptions/PaymentOptions';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import CardComponent from "./pages/Countertops/CardComponent";
+import CountertopCard from "./pages/Countertops/countertopCard";
 import CardInfo from "./pages/Countertops/CardInfo";
 
 const App = () => {
@@ -1170,7 +1170,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="paymentoptions" element={<PaymentOptions />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/countertops" element={<CardComponent data={cardData} />} />
+          <Route path="/countertops" element={<CountertopCard data={cardData} />} />
           <Route path="/countertops/:name" element={<CardInfo data={cardData} />} />
         </Routes>
         <Footer />

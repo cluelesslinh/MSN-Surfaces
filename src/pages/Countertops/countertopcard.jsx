@@ -1,47 +1,26 @@
-export const CountertopCard = ({ countertop, onCountertopClick }) => {
-    return (
-        <>
-            <img className="countertopImageCard img-fluid" src={countertop.image} />
-            <div className="countertopTitleBox">
-                <div className="countertopTitle">{countertop.title}</div>
-            </div>
-        </>
-    );
-};
-
-
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { MDBRow, MDBCol } from "mdb-react-ui-kit";
 import './countertops.scss';
 
-export const CountertopCard = ({ data }) => {
-    return (
-        <>
-            <section className="wrapper">
-                <div className="container">
-                    {data.title.map((item, index) => (
-                        <div className="card" key={index}>
-                            <h3>{item.name}</h3>
-                            <p>{item.title}</p>
-                            <Link to={`/countertops/${item.title}/`}>View Discription</Link>
-                        </div>
-                    ))}
+function countertopCard({ data }) {
+  return (
+    <>
+      <div className="countertopsTitle">Natural Stone Selection</div>
+      <MDBRow className="countertopRow">
+        {data.map((item, index) => (
+          <MDBCol className="col-xl-2 col-lg-3 col-md-4 col-5" key={index}>
+            <div className="countertopCardBox">
+              <Link to={`/countertops/${item.name}/`}>
+                <div>
+                  <img className="img-fluid" src={item.image} />
                 </div>
-            </section>
-        </>
-    );
+                <div className="countertopName">{item.name}</div>
+              </Link>
+            </div>
+          </MDBCol>
+        ))}
+      </MDBRow>
+    </>
+  );
 }
-
-CountertopCard.propTypes = {
-    data: PropTypes.shape({
-        title: PropTypes.string,
-        material: PropTypes.string,
-        primarycolor: PropTypes.string,
-        accentcolor: PropTypes.string,
-        description: PropTypes.string,
-        image: PropTypes.string
-    }).isRequired,
-    // onCountertopClick: PropTypes.func.isRequired
-};
-
-
+export default countertopCard;

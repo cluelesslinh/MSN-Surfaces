@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { MDBRow, MDBCol } from "mdb-react-ui-kit";
+import { Parallax, Background } from 'react-parallax';
 import "./countertopview.scss";
 
 const CardInfo = ({ data }) => {
@@ -14,15 +15,18 @@ const CardInfo = ({ data }) => {
                     .map((item, index) => (
                         <div key={index}>
 
-                            <MDBRow>
-                                <MDBCol className="countertopViewTitle">
-                                    <span>{item.name}</span>
-                                </MDBCol>
-                            </MDBRow>
+                            <Parallax className="viewTitleBox" strength={100}>
+                                <Background>
+                                    <img className="titleImage" src={item.image} />
+                                </Background>
+                                <div className="titleBox">
+                                    <div className="countertopViewTitle">{item.name}</div>
+                                </div>
+                            </Parallax>
 
                             <MDBRow className="countertopBox">
-                                <MDBCol className="slabImg col-lg-4 col-6">
-                                    <img className="img-fluid" src={item.image} />
+                                <MDBCol className="slabImgBox col-lg-4 col-6">
+                                    <img className="slabImg img-fluid" src={item.image} />
                                 </MDBCol>
                                 <MDBCol className="countertopDetailBox col-lg-3 col-6">
                                     <div className="detailBox">

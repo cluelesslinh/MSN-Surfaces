@@ -10,17 +10,17 @@
 }
 
 .countertopCardBox {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
+    padding: 1em;
 }
 
 .countertopCardBox:hover {
     opacity: 75%;
 }
 
-.countertopImageCard {
-    height: 20vh;
-}
-
 .countertopName {
     text-align: center;
+    padding-top: .5em;
 }

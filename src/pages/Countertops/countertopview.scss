@@ -1,6 +1,19 @@
+.viewTitleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.titleImage {
+    min-width: 100vw;
+}
+
 .countertopViewTitle {
     font-size: 42px;
-    text-align: center;
+    font-weight: 600;
+    background-color: white;
+    padding: 0 1em 0 1em;
 }
 
 .countertopBox {
@@ -15,10 +28,16 @@
 
 .detailBox {
     padding: 2.5em 0 0 0;
+    text-align: center;
+}
+
+.slabImgBox {
+    margin: 0 0 3% 0;
 }
 
 .slabImg {
-    margin: 0 0 3% 0;
+    min-width: 100%;
+    height: auto;
 }
 
 .countertopDetail {
@@ -42,32 +61,6 @@
 }
 
 .availabilityButton:hover {
-    color: white;
-    background-color: #26C39F;
-}
-
-.countertopDetails {
-    display: flex;
-    justify-content: center;
-    padding: 3% 0 3% 0;
-    text-align: center;
-}
-
-.buttonRow {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 3%;
-}
-
-.backButton {
-    cursor: pointer;
-    border: 2px solid black;
-    width: 10%;
-    font-weight: 600;
-}
-
-.backButton:hover {
     color: white;
     background-color: #26C39F;
 }

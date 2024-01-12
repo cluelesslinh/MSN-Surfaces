@@ -11,9 +11,7 @@ function countertopCard({ data }) {
           <MDBCol className="col-xl-2 col-lg-3 col-md-4 col-5" key={index}>
             <div className="countertopCardBox">
               <Link to={`/countertops/${item.name}/`}>
-                <div>
-                  <img className="img-fluid" src={item.image} />
-                </div>
+                <img className="img-fluid" src={item.image} />
                 <div className="countertopName">{item.name}</div>
               </Link>
             </div>
@@ -23,4 +21,4 @@ function countertopCard({ data }) {
     </>
   );
 }
-export default countertopCard;
+export default countertopCard; 

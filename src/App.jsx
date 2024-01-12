@@ -29,7 +29,7 @@ const App = () => {
       id: 2,
       name: "African Rainbow",
       material: "Granite",
-      primaryolor: "White-Warm",
+      primarycolor: "White-Warm",
       accentcolor: "Gray-Light",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/african-rainbow-granite.jpg",

@@ -8,7 +8,7 @@ import Contact from './pages/Contact/Contact';
 import PaymentOptions from './pages/PaymentOptions/PaymentOptions';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import CountertopCard from "./pages/Countertops/countertopCard";
+import CountertopCard from './pages/Countertops/countertopCardView';
 import CardInfo from "./pages/Countertops/countertopCardInfo";
 
 const App = () => {

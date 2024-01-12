@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import { MDBRow, MDBCol } from "mdb-react-ui-kit";
 import './countertops.scss';
 
-function countertopCard({ data }) {
+function CountertopCard({ data }) {
   return (
     <>
       <div className="countertopsTitle">Natural Stone Selection</div>
@@ -21,4 +22,4 @@ function countertopCard({ data }) {
     </>
   );
 }
-export default countertopCard; 
+export default CountertopCard; 

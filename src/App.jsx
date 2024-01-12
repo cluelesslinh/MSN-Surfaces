@@ -9,7 +9,7 @@ import PaymentOptions from './pages/PaymentOptions/PaymentOptions';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import CountertopCard from "./pages/Countertops/countertopCard";
-import CardInfo from "./pages/Countertops/CardInfo";
+import CardInfo from "./pages/Countertops/countertopCardInfo";
 
 const App = () => {
 

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import { MDBRow, MDBCol } from "mdb-react-ui-kit";
-import './countertops.scss';
+import './countertopview.scss';
 
 function CountertopCard({ data }) {
   return (

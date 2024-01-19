@@ -22,6 +22,14 @@ const App = () => {
       accentcolor: "Black",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/absolute-black-granite.jpg",
+      image1:
+        "https://rskmarbleandgranite.com/wp-content/uploads/2021/08/absolute-black-granite-countertop-1080x675.jpg",
+      image2:
+        "https://www.greatlakesgm.com/wp-content/uploads/2015/11/absolute-black-granite-countertop-kitchen-1.jpg",
+      image3:
+        "https://www.regattagranitesindia.com/wp-content/uploads/2019/08/Absolute-Black.jpg",
+      image4:
+        "https://graniteselection.com/wp-content/uploads/2019/12/Absolute-black-honed-granite.jpg",
       description:
         "Absolute Black granite is a solid black granite from India that has a very consistent color and texture. Absolute Black is recommended for both interior and exterior use to create beautiful granite countertops, floors, architectural features, and outdoor cladding."
     },
@@ -33,6 +41,14 @@ const App = () => {
       accentcolor: "Gray-Light",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/african-rainbow-granite.jpg",
+      image1:
+        "https://sky-marble.com/wp-content/uploads/2018/07/African-Rainbow-Kitchen-Northern-Granite-And-Marble.jpg",
+      image2:
+        "https://sky-marble.com/wp-content/uploads/2018/07/African-Rainbow-Kitchen-Northern-Granite-And-Marble-2.jpg",
+      image3:
+        "https://intstonegallery.com/wp-content/uploads/2020/01/blog.jpg",
+      image4:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/african-rainbow-granite-kitchen-northern-granite-and-marble-img~1ff17d9508dab638_14-7178-1-1f120e7.jpg",
       description:
         "African Rainbow granite is coarsely grained, primarily pale laced with multi-colored veins. Large ivory and alabaster grains give this beautiful stone its dominant coloring, while russet and midnight blue veins add unique appeal. Durable and low maintenance, this natural stone is suitable to create stunning granite countertops, walls, floors, and other architectural features."
     },
@@ -44,6 +60,14 @@ const App = () => {
       accentcolor: "Gray",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/agatha-black-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/agatha-black-granite-c.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/agatha-black-granite-e.jpg",
+      image3:
+        "https://aquakitchen.com/wp-content/uploads/2021/07/black-agatha-granite.jpeg",
+      image4:
+        "https://primestones.com/wp-content/uploads/2021/11/agatha-quartzite-kitchen-primestones-4.jpg",
       description:
         "Agatha Black granite features a dark black background that partners beautifully with light gray and white wavy veins that add movement and depth. Both 2CM and 3CM polished slabs are available and suitable for a wide range of interior and exterior design projects. Create dramatic, bold, and beautiful granite countertops, kitchen islands, backsplashes, floors, and accent walls wherever a durable natural stone is preferred."
     },
@@ -55,6 +79,14 @@ const App = () => {
       accentcolor: "Cream, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/alaska-white-granite.jpg",
+      image1:
+        "https://sky-marble.com/wp-content/uploads/2018/07/Alaska-White-Design-Edited.jpg",
+      image2:
+        "https://www.surfacesbypacific.com/wp-content/uploads/2020/03/Alaska-White-Counter.png",
+      image3:
+        "https://goodwillexports.com/wp-content/uploads/2022/11/Alaska-white-granite-kitchen-countertop.jpg",
+      image4:
+        "https://www.cgdcabinetry.com/wp-content/uploads/2019/12/alaska-white-granite-countertop-sample.jpg",
       description:
         "Alaska White granite is a frosty blend of pale silver and frosty whites, marketed with warm neutrals and onyx hues. Imported from Brazil, this durable natural stone is available in a range of slab sizes. With this granite create stunning granite countertops, backsplashes, accent walls, floors and other architectural features, both indoors, and out."
     },
@@ -66,6 +98,14 @@ const App = () => {
       accentcolor: "Blush, Olive",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/alpine-valley-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/alpine-white-granite-b.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/alpine-valley-granite-a.jpg",
+      image3:
+        "https://kitchenbathdesignstudio.com/wp-content/uploads/2021/12/Oyster-White-granite-countertops-Charlotte.jpg",
+      image4:
+        "https://kitchenbathdesignstudio.com/wp-content/uploads/2021/12/Alpine-White-granite-countertops-Charlotte.jpeg",
       description:
         "Alpine Valley granite countertops are slabs of dazzling natural stone from India with their warm white backgrounds and scattered beige, charcoal, and black accents. The high-variation counters come with a polished finish and can create a fabulous tone-on-tone look installed over medium wood cabinetry or standout style atop lighter cabinetry."
     },
@@ -77,6 +117,14 @@ const App = () => {
       accentcolor: "Terra-Cotta",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/amarello-ornamental-granite.jpg",
+      image1:
+        "https://scontent-hkg1-2.xx.fbcdn.net/v/t1.6435-9/82264744_1091017871229672_422705866613981184_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeGdKgovYvu-AMm2LNWf4dYXiYRk5Ti2r7GJhGTlOLavsR75SM_mItAV3KU_RrbJdBQ&_nc_ohc=Hs6JjTCavcQAX_OiyC4&_nc_ht=scontent-hkg1-2.xx&oh=00_AfBCQt85OgR48KTAvU372Zob8vMvq384daOzPiG0Z1AVEw&oe=65CC9895",
+      image2:
+        "https://live.staticflickr.com/7158/6669059029_e0d2092850_b.jpg",
+      image3:
+        "https://granitecountertopchattanooga.com/wp-content/uploads/2017/12/Ornamental-Guidoni.jpg",
+      image4:
+        "https://live.staticflickr.com/7035/6669057287_ddbbdff13c_b.jpg",
       description:
         "Amarello Ornamental polished granite from Brazil is rich with grays, beiges, yellows, and creams that add subtle warmth to this durable natural stone slab. Create stunning granite countertops, floors, backsplashes, and other architectural features for residential and commercial properties. This granite, available in both 2CM and 3CM slabs, is suitable for exterior projects even in climates with freezing tempeartures."
     },
@@ -88,6 +136,14 @@ const App = () => {
       accentcolor: "Gold",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/amber-yellow-granite.jpg",
+      image1:
+        "https://i.pinimg.com/originals/99/60/68/9960687af5af0b1745f546440ff867ef.jpg",
+      image2:
+        "https://www.granitemarblewa.com/wp-content/uploads/2017/05/Amber_Yello_P1.jpg",
+      image3:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/yellow-river-granite-and-bathrooms-granite-grannies-img~2531f0c5006dd650_14-4470-1-02cfee2.jpg",
+      image4:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/puebla-onyx-mosaic-hatches-in-kitchen-msi-img~4361fd69015b40fa_4-0619-1-a9eb2a8.jpg",
       description:
         "Amber Yellow granite from Brazil features warm gold and yellow undertones that contrast beautifully with the gray and dark brown veins. This beautiful natural granite is available in both slabs and tiles to create an elegant coordinated look. Use Amber Yellow for granite countertops, kitchen islands, floors, exterior cladding, landscaping features, showers, and backsplashes. Durable and low-maintenance, it is suitable for exterior and interior design projects in both residential and commercial properties."
     },
@@ -99,6 +155,14 @@ const App = () => {
       accentcolor: "Cream, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/andino-white-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/6618/large_granite-andino-white-installed-photo",
+      image2:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/6617/large_granite-andino-white-installed-photo",
+      image3:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/andino-white-granite-a.jpg",
+      image4:
+        "https://www.wp-stone.com/uploads/allimg/White-Granite-Countertops/16-kitchen-with-white-cabinets-and-arctic-white-granite-countertops.jpg",
       description:
         "Andino White granite from Brazil is a beautiful white and gray granite with accents of beiges and charcoals. This durable and low-maintenance granite is offered with a polished finish and is suitable for both interior and exterior design projects, even in freezing climates. Create elegant granite countertops, backsplashes, kitchen islands, floors, and landscaping features with Andino White granite."
     },
@@ -110,6 +174,14 @@ const App = () => {
       accentcolor: "Cream, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/arctic-sand-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/arctic-sand-granite-a.jpg",
+      image2:
+        "https://www.badgergranite.com/wp-content/uploads/2023/10/New-Venetian-Gold-Granite-Countertops-in-Oak-Creek-Milwaukee-Wisconsin-1.jpg",
+      image3:
+        "https://cdn.shopify.com/s/files/1/0555/4244/8263/products/msi-surfaces-alaska-white-granite-kitchenscene1_512x393.jpg?v=1666386591",
+      image4:
+        "https://cdn.shopify.com/s/files/1/0555/4244/8263/products/msi-surfaces-silver-falls-granite-kitchenscene_512x342.jpg?v=1666409872",
       description:
         "Arctic Sand granite countertops from India offer visual appeal and lovely movement by mixing together warm whites with soft beige, taupe, and black colorways. The polished surfaces create smooth finishes and sophisticated sheen and will look fabulous with a variety of kitchen and bathroom designs that feature various wood tones."
     },
@@ -121,6 +193,14 @@ const App = () => {
       accentcolor: "Gray-Light, White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/aspen-white-granite.jpg",
+      image1:
+        "https://louisvillegraniteandstone.com/wp-content/uploads/2021/08/7-1024x768.jpg",
+      image2:
+        "https://aquakitchen.com/wp-content/uploads/2016/04/the-one.jpg",
+      image3:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/aspen-white-granite-kitchen-stone-action-img~40b128e00a46735a_9-2992-1-6b5f80b.jpg",
+      image4:
+        "https://www.ksdealscabinets.com/content/images/products/Aspen-White-1.jpg",
       description:
         "Elegant and sophisticated, Aspen White granite is suitable for interior and exterior projects in both residential and commercial properties. In this beautiful granite, cool whites and grays are complemented with warm gold veins making this unique natural stone ideal for a variety of design styles. Available in a polished finish in both 2CM and 3CM slabs this natural stone is perfect to create stunning granite countertops, waterfall kitchen islands, backsplashes, floors, and other architectural features."
     },
@@ -132,6 +212,14 @@ const App = () => {
       accentcolor: "Blush, Terra-Cotta",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/astoria-granite.jpg",
+      image1:
+        "https://www.ganeshstone.in/webroot/img/uploads/category_icon/1687866291image(210).png",
+      image2:
+        "https://greenvillecountertops.com/static/0e79263680f181d9ba971986b3f7c688/astoria-granite-kitchen-island-install.jpg",
+      image3:
+        "https://marble.com/uploads/albums/285/1280X720/XwPz08gXDsAV3qqurSmB.jpg",
+      image4:
+        "https://cms.countertop.agency/uploads/astoria_granite_kitchen_countertops_1ec08e0d1c.jpg",
       description:
         "Astoria granite is a durable granite from India with a deep cream background and darker veins of chocolates and grays. This durable slab granite is recommended for use as granite countertops, backsplashes, landscaping features and more, for interior and exterior usage, even in freezing climates."
     },
@@ -143,6 +231,14 @@ const App = () => {
       accentcolor: "Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/avalon-white-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/6645/large_granite-avalon-white-installed-photo",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/avalon-white-granite-a.jpg",
+      image3:
+        "https://i.pinimg.com/originals/e4/bd/2e/e4bd2ea8f71f4f19c186fce5d1cd3c17.jpg",
+      image4:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/the-avalon-parade-of-homes-fall-2013-model-robert-thomas-homes-img~43c1b20c0239b4b5_14-0419-1-43a65a5.jpg",
       description:
         "Avalon White granite features warm white and cream tones complemented by dark gray and black veins. This beautiful natural stone is ideal for a variety of design projects including granite countertops, accent walls, fireplace surrounds, and floors throughout commercial and residential properties. Natural granite is also suitable for exterior installations, even in areas with temperatures below freezing."
     },
@@ -154,6 +250,14 @@ const App = () => {
       accentcolor: "Gold, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/azul-celeste-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/6648/large_granite-azul-celeste-installed-photo",
+      image2:
+        "https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/277172686_4948626805191414_4514725260130782789_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=6cJpDek9n5IAX_Gh4Ov&_nc_ht=scontent.fhan5-11.fna&oh=00_AfCtrZQqgCseqg20bm9GwxUyYpmfCfMqacbBPojnBD5V0A&oe=65ABDEC5",
+      image3:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/azul-celeste-granite-a.jpg",
+      image4:
+        "https://www.tingidastone.com/Content/uploads/2023844797/20231129114306d7941326981b480faa98b43cebb7a3af.jpg?size=x0",
       description:
         "Soothing grays, silvers, dusty blues, and threads of charcoal swirl together in harmony in Azul Celeste Granite. Durable, easy-to-clean, heat and stain resistant, and it requires virtually no maintenance, this slab granite is perfect for both residential and commercial properties. Create gorgeous granite countertops, kitchen islands, floors, accent walls, shower surrounds, and backsplashes wherever a timeless and extraordinary gray granite is desired to set the tone of your design."
     },
@@ -165,6 +269,14 @@ const App = () => {
       accentcolor: "Navy",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/azul-platino-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/azul-platino-granite-a.jpg",
+      image2:
+        "https://st.hzcdn.com/simgs/e82292c1080678ec_9-9199/_.jpg",
+      image3:
+        "https://prestigeedition.co.uk/media/images/azul-platino-worktops.jpg",
+      image4:
+        "https://www.countertopshq.com/wp-content/uploads/2021/04/azul-platino-granite.jpg",
       description:
         "Azul Platino Granite from Spain is a low variation gray and white slab granite that blends well with all interiors and design features in bathrooms, kitchens, and outdoor spaces. This durable polished granite is recommended for both commercial and residential usage as flooring, granite countertops, landscaping projects and walls."
     },
@@ -186,7 +298,15 @@ const App = () => {
       primarycolor: "Brown",
       accentcolor: "Taupe",
       image:
-        "https://cdn.msisurfaces.com/images/colornames/thumbnails/bianco-antico-granite.jpg",
+        "https://cdn.msisurfaces.com/images/colornames/thumbnails/azurite-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/azurite-granite-b.jpg",
+      image2:
+        "https://i0.wp.com/prostonecountertops.com/wp-content/uploads/2021/07/606425d6f507cb97d3231a89_Azurite%E2%80%93Granite%E2%80%93Install%E2%80%93Kitchen%E2%80%93Stone-Fabricators-1-1160x810-1.jpg?fit=1160%2C810&ssl=1",
+      image3:
+        "https://www.cawdorstonegallery.co.uk/wp-content/uploads/2019/11/azzurite-granite-hertford-heath-cawdor-stone-1.jpg",
+      image4:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/azurite-granite-kitchen-pacific-crest-granite-redding-location-img~98716ebe0ab3f2f4_4-0083-1-b83bf18.jpg",
       description:
         "Azurite Granite from Brazil is a beautiful rich polished slab granite of blues and creams of medium variation with darker veining for elegant contrast. Indoor and outdoor applications for this exquisite granite include landscaping projects, granite countertops, flooring, and backsplashes."
     },
@@ -198,6 +318,14 @@ const App = () => {
       accentcolor: "Beige, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/bianco-antico-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/bianco-antico-granite-b.jpg",
+      image2:
+        "https://dropinblog.net/34246798/files/featured/Bianco_Antico_Granite__Wrap_up_Your_New_kitchen_With_us.png",
+      image3:
+        "https://amsumash.com/wp-content/uploads/2018/09/Bianco-Antico-Granite.jpg",
+      image4:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/bianco-antico-granite-a.jpg",
       description:
         "Bianco Antico Granite countertops feature a soft gray background with warm taupe and pink flecks. In addition to countertops, this beautiful granite can be used for coordinating backsplashes, accent walls, and floors. Granite is recommended for both residential and commercial projects, and can be used in exterior projects for wall cladding, landscaping, and countertops."
     },
@@ -209,6 +337,14 @@ const App = () => {
       accentcolor: "Taupe, White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/bianco-frost-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/bianco-frost-granite-a.jpg",
+      image2:
+        "https://www.novelkitchenbath.com/wp-content/uploads/2021/07/bianco-frost-granite-b.jpg",
+      image3:
+        "https://scontent.fhan15-1.fna.fbcdn.net/v/t1.6435-9/74312459_2432953096803854_5980447655635976192_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=810d5f&_nc_ohc=PsmtuMqnh3YAX934hzb&_nc_ht=scontent.fhan15-1.fna&oh=00_AfBo-UeFUXBxAPGJyOx42iZmjS-s595M_a-Ju8-QNjpJdw&oe=65CDC1C6",
+      image4:
+        "https://scontent.fhan15-1.fna.fbcdn.net/v/t1.18169-9/28276486_10155469798927613_6010568465238022207_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=84c479&_nc_ohc=K__i7d0Q7msAX_wF08i&_nc_ht=scontent.fhan15-1.fna&oh=00_AfC4KTZNE3Y_f4vNNC6_jTLVZduplcpf-XBLhZiCSFDtsQ&oe=65CDD4D7",
       description:
         "Bianco Frost Granite countertops feature a soft white background, with dramatic black veins, and specks of deep red. These beautiful natural stone slabs are available in both 2 CM and 3 CM thicknesses, and are suitable for a variety of interior and exterior installation projects including fireplace surrounds, flooring projects, countertops, and kitchen islands."
     },
@@ -220,6 +356,14 @@ const App = () => {
       accentcolor: "Taupe, White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/bianco-imperial-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/bianco-imperial-granite-a.jpg",
+      image2:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7311/large_granite-bianco-diamante-installed-photo",
+      image3:
+        "https://i.pinimg.com/originals/bb/ea/f4/bbeaf4f7cc790df98745f10693aad755.jpg",
+      image4:
+        "https://www.intermountainstone.com/wp-content/uploads/2018/10/granite.jpg",
       description:
         "Bianco Imperial granite countertops offer medium-variation patterns with its interesting mixture of light grays, medium grays, dark flecks, and black specks. The polished surfaces from Brazil offer a stately look and can be installed both inside and outside for residential and commercial applications that include countertops, wall installations, and flooring."
     },
@@ -231,6 +375,14 @@ const App = () => {
       accentcolor: "Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/bianco-romano-granite.jpg",
+      image1:
+        "https://lovehomedesigns.com/wp-content/uploads/2017/04/Bianco-Romano-Granite-Featured.jpg",
+      image2:
+        "https://www.wp-stone.com/uploads/allimg/Bianco-Romano-Granite/17-bianco-romano-granite-on-white-cabinets.jpg",
+      image3:
+        "https://grandstrandmarblellc.com/wp-content/uploads/2018/08/BIANCO-ROMANO3-1.png",
+      image4:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/bianco-romano-granite-a.jpg",
       description:
         "Bianco Romano granite is perfect for use as granite countertops, flooring and more in indoor and outdoor applications including landscaping projects, even in climates with freezing temperatures. Bianco Romano is mostly shades of white and gray with small darker flecks of browns and blacks."
     },
@@ -242,6 +394,14 @@ const App = () => {
       accentcolor: "Lava Vechia",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/black-forest-granite.jpg",
+      image1:
+        "https://www.wp-stone.com/uploads/allimg/Black-Granite-Countertops/cosmic-black-granite-countertops.jpg",
+      image2:
+        "https://www.igscountertops.com/wp-content/uploads/2017/05/Black-Forest-Granite-Kitchen.jpg",
+      image3:
+        "https://dropinblog.net/34246798/files/featured/Black_Forest_Granite_is_Durable.png",
+      image4:
+        "https://i.pinimg.com/736x/66/95/36/669536df4626532ea3aa4e9f1c974176.jpg",
       description:
         "Our Black Forest granite is a boldly patterned, polished, high variation stone, imported from Brazil. This deepest obsidian and sable granite is punctuated by a blizzard of snow-white streaks and flurries. Available in both 2 cm and 3 cm thicknesses, these slabs are ideal for granite countertops, flooring, and walls, indoors and out."
     },
@@ -253,17 +413,33 @@ const App = () => {
       accentcolor: "Black",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/black-galaxy-granite.jpg",
+      image1:
+        "https://www.regattagranitesindia.com/wp-content/uploads/2019/04/2-Black-galaxy-Granite-kitchen-countertop.jpg",
+      image2:
+        "https://i.pinimg.com/736x/00/fe/32/00fe32f08780871b47319da7c3811a43.jpg",
+      image3:
+        "https://imgix.cosentino.com/usa/wp-content/uploads/2021/07/BG1-1.jpg?auto=format%2Ccompress&ixlib=php-3.3.0",
+      image4:
+        "https://i.pinimg.com/736x/3f/06/db/3f06dba8ddca644c19e09a98d1c3835d.jpg",
       description:
         "Black Galaxy granite is a mostly black granite with small gold or white flecks. Black Galaxy granite is available in both slabs and tiles to allow for creative and coordinated installations. This durable granite is suitable for both interior and exterior projects and recommended for granite countertops, accent walls, backsplashes, cladding, floors, and other features."
     },
     {
       id: 23,
-      name: "Black Peal",
+      name: "Black Pearl",
       material: "Granite",
       primarycolor: "Black",
       accentcolor: "Black",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/black-pearl-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/black-pearl-granite-a.jpg",
+      image2:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/black-pearl-granite-kitchen-countertops-sale-in-london-granite-sale-astrum-granite-img~5c212c690f63387b_9-0195-1-064b59f.jpg",
+      image3:
+        "https://www.shreenathstonex.com/wp-content/uploads/2020/06/black-pearl1.jpg",
+      image4:
+        "https://rocky-tops.com/wp-content/uploads/2021/07/Black-Pearl-Granite0710.jpg",
       description:
         "Black Pearl granite is a predominately black granite of a semi-solid color tone with speckles of blacks, golds, silvers, browns, greens and shades of gray. This durable granite is recommended for granite countertops, backsplashes, and more. It is appropriate for both indoor and outdoor use and is available in a variety of finishes."
     },
@@ -275,6 +451,14 @@ const App = () => {
       accentcolor: "Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/blizzard-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/blizzard-granite-a.jpg",
+      image2:
+        "https://i.ytimg.com/vi/S1MYwuhWdMQ/maxresdefault.jpg",
+      image3:
+        "https://www.tingidastone.com/uploads/202335220/blizzard-granite-slab6a3be0e6-2ff8-4728-b64f-9e4488157446.jpg",
+      image4:
+        "https://stoneproonline.com/wp-content/uploads/2023/06/granite-counter-top.jpg",
       description:
         "Blizzard granite features a soft white background with dramatic gray veins. This beautiful natural granite is suitable for both residential and commercial design projects including walls, backsplashes, floors, kitchen islands, outdoor granite countertops and table tops, and accent walls. 2CM and 3CM slabs are available from MSI for flexibility in design and installation."
     },
@@ -286,6 +470,14 @@ const App = () => {
       accentcolor: "Gray-Dark",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/blue-pearl-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/blue-pearl-granite-b.jpg",
+      image2:
+        "https://eastcoast-granite.com/_ipx/w_3840,q_75/https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fblue_pearl_quartz_kitchen_countertops_c06e5ed8b0.jpg?url=https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fblue_pearl_quartz_kitchen_countertops_c06e5ed8b0.jpg&w=3840&q=75",
+      image3:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/blue-pearl-classic-granite-and-marble-img~d6b1643304789129_16-7896-1-49df376.jpg",
+      image4:
+        "https://diastone.ee/wp-content/uploads/2019/02/blue-pearl-1-1024x768.jpg",
       description:
         "Blue Pearl granite from Norway features shades of blues, grays, and beige. This durable granite is an excellent choice for both commercial and residential projects including granite countertops, backsplashes and floors, and is an exceptional option for cladding of exterior walls."
     },
@@ -297,6 +489,14 @@ const App = () => {
       accentcolor: "Brown",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/caledonia-granite.jpg",
+      image1:
+        "https://www.qualitygranitenh.com/wp-content/uploads/2018/05/new-caledonia-granite.jpg",
+      image2:
+        "https://www.igscountertops.com/wp-content/uploads/New-Caledonia-Granite-Kitchen-scaled.jpeg",
+      image3:
+        "https://eastcoast-granite.com/_ipx/w_3840,q_75/https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fnew_caledonia_kitchen_counters_c3d1550626.jpg?url=https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fnew_caledonia_kitchen_counters_c3d1550626.jpg&w=3840&q=75",
+      image4:
+        "https://countertopsolutionsohio.com/wp-content/uploads/2019/07/Caledonia-granite-92338.jpg",
       description:
         "Caledonia granite is a beautiful intricate granite of shades of grays and white ranging from charcoal to light gray. It is available in slabs in a polished finish and is recommended for all indoor and outdoor projects, including granite coutertops, flooring, and more."
     },
@@ -308,6 +508,14 @@ const App = () => {
       accentcolor: "Yellow",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/caravelas-gold-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/caravelas-gold-granite-b.jpg",
+      image2:
+        "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/145912884_1722841157896465_3077734820253123757_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Sz4-79y6_wEAX-qN8gc&_nc_ht=scontent.fhan15-2.fna&oh=00_AfAyJbJFEWad2ARuh0l5wJyUkRXyJUR_ZCm2dT1pRiPVIw&oe=65CF2F40",
+      image3:
+        "https://i0.wp.com/seattlevegasgranite.com/wp-content/uploads/2021/10/Caravelas-Gold-Granite-Kitchen-Countertops.jpg?ssl=1",
+      image4:
+        "https://www.novelkitchenbath.com/wp-content/uploads/2021/07/caravelas-gold-granite_taos-picket-pattern-8mm-b.jpg",
       description:
         "Caravelas Gold Granite countertops are dramatic, and stunning. Soft creams swirl together with warm browns and cool grays in this high movement natural granite. 2 CM and 3 CM slabs are available from MSI, allowing for creative architectural installations. This beautiful granite can even be safely used as countertops, bar tops, table tops, and other exterior design projects."
     },
@@ -319,6 +527,14 @@ const App = () => {
       accentcolor: "Gray",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/ceara-white-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/6798/large_granite-fortaleza-installed-photo",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/ceara-white-granite-a.jpg",
+      image3:
+        "https://cdn.msisurfaces.com/images/blogs/posts/2022/10/msi-white-napoli-granite-kitchen-island-min.jpg",
+      image4:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/ceara-white-granite-b.jpg",
       description:
         "This Caera White Granite countertop from Brazil is a style chameleon. It flawlessly blends with many kitchen or bathroom styles and offers the same durability you get with all of MSI's granite countertops. The black and gray speck detailing in this countertop gives this cool white granite countertop a more natural feel, and allows this countertop to look good paired with styles ranging from modern to classic. You'll love how this looks in your home!"
     },
@@ -330,6 +546,14 @@ const App = () => {
       accentcolor: "Beige",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/coffee-brown-granite.jpg",
+      image1:
+        "https://www.wp-stone.com/uploads/allimg/Tan-Brown-Granite/11-tan-brown-granite-countertops-with-wood-cabinets.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/coffee-brown-granite-a.jpg",
+      image3:
+        "https://rskmarbleandgranite.com/wp-content/uploads/2021/10/coffee-brown-granite-countertop.jpg",
+      image4:
+        "https://5.imimg.com/data5/SELLER/Default/2022/3/KC/ZX/PG/41582319/coffee-brown-granite.jpg",
       description:
         "Coffee Brown granite features shades of brown including coffee and chocolate. It is available in both tiles and slabs and recommended for all commercial and residential projects including flooring, walls and granite countertops."
     },
@@ -341,6 +565,12 @@ const App = () => {
       accentcolor: "Gold, White-Warm",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/colonial-cream-granite.jpg",
+      image2:
+        "https://www.igscountertops.com/wp-content/uploads/Colonial-Cream-Granite-Kitchen.jpeg",
+      image3:
+        "https://www.decor-eye.com/wp-content/uploads/2015/09/Colonial-Cream-Granite-Countertops-Cabinets-Backsplash.jpg",
+      image4:
+        "https://cdn.decorpad.com/photos/2016/06/09/kitchen-soapstone-crema-persa-granite-countertops.jpg",
       description:
         "Colonial Cream granite countertops from India features a captivating pattern of gold and ivory with contrasting veins. Available in both polished and brushed finishes, Colonial Cream is recommended for commercial and residential projects including floors, walls, countertops, and landscaping features."
     },
@@ -352,6 +582,9 @@ const App = () => {
       accentcolor: "Taupe, White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/colonial-ice-granite.jpg",
+      image1:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/marble-yard-colonial-cream-granite-marble-yard-granite-orange-county-anaheim-img~a681bd6d0e9c9257_9-3401-1-92f5df9.jpg",
+
       description:
         "Colonial Ice granite countertops feature cool white surfaces with an abundance of burgundy specks and subtle veins throughout. The beautiful natural stone countertops from Brazil include high variation patterns and polished finishes for a sophisticated style. Choose from 2 centimeters and 3 centimeters for a variety of countertop edge options."
     },

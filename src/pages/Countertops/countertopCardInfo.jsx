@@ -60,9 +60,10 @@ const CardInfo = ({ data }) => {
                                     <span>{item.description}</span>
                                     <div>
                                         <a href="mailto:sangsite13@gmail.com">
-                                            <button className="availabilityButton">Check Availability</button>
+                                            <button className="availabilityButton">Request Quote</button>
                                         </a>
                                     </div>
+                                    <div><center>* Receive within 24 hours *</center></div>
                                 </MDBCol>
                             </MDBRow>
 

@@ -5,7 +5,6 @@ import './index.css';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
-import PaymentOptions from './pages/PaymentOptions/PaymentOptions';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import CountertopCard from './pages/Countertops/countertopCardView';
@@ -288,6 +287,14 @@ const App = () => {
       accentcolor: "Gray-Dark, Gray-Light",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/azure-mist-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/colornames/fullslab/azure-mist-granite.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/colornames/fullslab/azure-mist-granite.jpg",
+      image3:
+        "https://cdn.msisurfaces.com/images/colornames/fullslab/azure-mist-granite.jpg",
+      image4:
+        "https://cdn.msisurfaces.com/images/colornames/fullslab/azure-mist-granite.jpg",
       description:
         "Azure Mist Granite captivates with its stunning shades of cool gray and a serene blue, adorned with threads of charcoal swirls that add a touch of elegance to any space. This durable stone boasts heat and stain resistance, ensuring longevity and easy maintenance. Its easy-to-clean surface makes it a practical choice for both residential and commercial applications. Ideal for countertops, waterfall islands, shower surrounds, floors, and beyond, Azure Mist Granite offers versatility in design. Available in 2cm and 3cm slabs, this exquisite granite transforms spaces into sophisticated havens, combining aesthetic appeal with practical functionality."
     },
@@ -1667,6 +1674,14 @@ const App = () => {
       accentcolor: "Green",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/ubatuba-granite.jpg",
+      image1:
+        "https://dropinblog.net/34246798/files/featured/Ubatuba_Green_Granite__Gives_you_Nature_like_Appearence_2.png",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/ubatuba-granite-c.jpg",
+      image3:
+        "https://dropinblog.net/34246798/files/Ubatuba_Green_Granite_Slab.png",
+      image4:
+        "https://eastcoastgraniteraleigh.com/_ipx/w_3840,q_75/https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fuba_tuba_countertops_2d8cb83613.jpg?url=https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fuba_tuba_countertops_2d8cb83613.jpg&w=3840&q=75",
       description:
         "Ubatuba granite from Brazil is a finely textured granite featuring black, gold, gray and green speckles. The shimmering speckles of Ubatuba granite make it a perfect statement piece for indoor and outdoor applications such as granite countertops, backsplashes and more.",
     },
@@ -1678,6 +1693,14 @@ const App = () => {
       accentcolor: "Taupe, White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/valle-nevado-granite.jpg",
+      image1:
+        "https://www.surfacesbypacific.com/wp-content/uploads/2020/09/Vella-Nevado-countertop.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/valle-nevado-granite-a.jpg",
+      image3:
+        "https://brothersingranite.files.wordpress.com/2017/11/valle_nevado_counter.jpg",
+      image4:
+        "https://kdcountertops.com/files/2019/08/VALLE_NEVADO_GRANITE_(2-3).jpg",
       description:
         "Valle Nevado granite slabs feature low variation design making it the perfect subtle backdrop in kitchens, baths, and other areas of homes and commercial properties. Use this durable natural stone to create elegant granite countertops, backsplashes, waterfall islands, floors, and accent walls. This stone can also be used for exterior projects including outdoor kitchens, patios, and other features."
     },
@@ -1689,6 +1712,14 @@ const App = () => {
       accentcolor: "Black",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/via-lactea-granite.jpg",
+      image1:
+        "https://sky-marble.com/wp-content/uploads/2018/12/White-Cabinet-with-Black-Stone-1-1024x769.jpg",
+      image2:
+        "https://dropinblog.net/34246798/files/featured/Via_Lactea_Granite__The_Go-to_granite_for_Your_Entire_Place.png",
+      image3:
+        "https://dropinblog.net/34246798/files/Maintenance_of_Via_Lactea.png",
+      image4:
+        "https://dropinblog.net/34246798/files/Characteristics__amp__Finishes_of_Via_Lactea.png",
       description:
         "Via Lactea Granite is a durable and elegant black natural stone from Brazil that has a polished, leathered, or honed surface; featuring striking white veins. Ideal for countertops and kitchen islands."
     },
@@ -1700,6 +1731,14 @@ const App = () => {
       accentcolor: "Gray",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/virginia-mist-granite.jpg",
+      image1:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/lorton-virginia-kitchen-remodel-nvs-kitchen-and-bath-img~4991f87001c1d043_14-9758-1-0d698eb.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/virginia-mist-granite_vienna-blend-brick-0.625x3x8mm-a.jpg",
+      image3:
+        "https://indystonegallery.com/wp-content/uploads/2020/07/Virginia-Mist_3.jpg",
+      image4:
+        "https://www.marmirossi.com/images/virginia-black-granito-piano-cucina.jpg",
       description:
         "Made in the USA, Virginia Mist is a soothing gray durable granite slab. This granite is recommended for both interior and exterior projects including landscaping, countertops and walls in areas with freezing climates."
     },
@@ -1711,6 +1750,14 @@ const App = () => {
       accentcolor: "Gray-Light, Sky, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/whisper-white-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/whisper-white-granite-a.jpg",
+      image2:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/whisper-white-granite-kitchen-sandia-marble-img~84f1183809aed110_9-2578-1-590d4bf.jpg",
+      image3:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/whisper-white-granite-kitchen-sandia-marble-img~85614a3e09aed10c_9-2578-1-367f534.jpg",
+      image4:
+        "https://st.hzcdn.com/simgs/pictures/kitchens/whispering-circle-kitchen-alair-homes-plano-img~eb61207a0797a1a5_14-6498-1-581b6b3.jpg",
       description:
         "Whisper White granite from MSI features a cool white background and dramatic black veins. Create beautiful granite countertops, waterfall islands, accent walls, and even floors for homes and commercial properties. Granite is durable, and low-maintenance making it ideal for exterior design projects including outdoor kitchens and other architectural elements."
     },
@@ -1722,6 +1769,14 @@ const App = () => {
       accentcolor: "Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-alpha-granite.jpg",
+      image1:
+        "https://www.roomvo.com/services/room/rooms/e715ffd000d341f69ba3fb03548d7141/paint/?instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A2%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A3%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A4%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A5%7D&img_format=jpg&vendor=5043d50518074a2180bb36c9ca636077&visitor=550785dfa8a640d6af9a3f49804e8009&locale=en-us&display_width=1024&display_height=1024&img_quality=high",
+      image2:
+        "https://www.roomvo.com/services/room/rooms/8c2d4c0144ae41dcb42f253a89678f3b/paint/?instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A2%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A4%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A5%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A6%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A7%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A8%7D&img_format=jpg&vendor=5043d50518074a2180bb36c9ca636077&visitor=550785dfa8a640d6af9a3f49804e8009&locale=en-us&display_width=1024&display_height=1024",
+      image3:
+        "https://www.roomvo.com/services/room/rooms/c55ab1a9f3a644fb9f8a8bd6f72deb34/paint/?instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A2%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A3%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A4%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A5%7D&img_format=jpg&vendor=5043d50518074a2180bb36c9ca636077&visitor=550785dfa8a640d6af9a3f49804e8009&locale=en-us&display_width=1024&display_height=1024&img_quality=high",
+      image4:
+        "https://www.roomvo.com/services/room/rooms/a79abfe950674948a82df073856acde7/paint/?instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A2%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A3%7D&instance_spec=%7B%22product_id%22%3A%22037604d34%22%2C%22orientation%22%3A0%2C%22instance_number%22%3A4%7D&img_format=jpg&vendor=5043d50518074a2180bb36c9ca636077&visitor=550785dfa8a640d6af9a3f49804e8009&locale=en-us&display_width=1024&display_height=1024&img_quality=high",
       description:
         "White Alpha granite countertops feature a soft white background with contrasting light and dark gray specks, making it ideal for a variety of design styles from traditional to modern. This beautiful granite, available in both 2CM and 3CM slabs, is suitable for residential and commercial projects including countertops, accent walls, floors, and other architectural projects."
     },
@@ -1733,6 +1788,14 @@ const App = () => {
       accentcolor: "White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-galaxy-granite.jpg",
+      image1:
+        "https://aquakitchen.com/wp-content/uploads/2016/10/white-galaxy-granite-Kitchen-Traditional-with-custom-made-countertop-20.jpg",
+      image2:
+        "https://rskmarbleandgranite.com/wp-content/uploads/2019/09/how-much-do-granite-countertops-cost.jpg",
+      image3:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7046/large_granite-white-galaxy-installed-photo",
+      image4:
+        "https://pbs.twimg.com/media/Ek2bdb9W0AArwdy.jpg",
       description:
         "White Galaxy Granite is mostly white in color, there are varying shades of gray throughout this beautiful natural stone. The gray mineral deposits are both in a speckled pattern as well as flowing veins, this is just one of the features that will make each slab of White Galaxy granite unique."
     },
@@ -1744,6 +1807,14 @@ const App = () => {
       accentcolor: "Brown, Cream",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-glimmer-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-glimmer-b.jpg",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-glimmer-a.jpg",
+      image3:
+        "https://scontent.fhan15-1.fna.fbcdn.net/v/t1.6435-9/32399311_10155657317812613_4816369492441432064_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeGdWU0CoUTTgey6gY1O8bEjUNa8H8Q3NiVQ1rwfxDc2JdfTejJitUtDNdsnEZLAGWY&_nc_ohc=MVnnksafBjoAX86JmBe&_nc_ht=scontent.fhan15-1.fna&oh=00_AfDY9dLyPJ2vQmUvz8FdNsCF7lNJiOXY9soPgwUj0IGh1A&oe=65E3CEF1",
+      image4:
+        "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/32503713_10155657317907613_1208986938241974272_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeH5Y0pK6vStXUwqrGJvqNX2_57vpbFfjyv_nu-lsV-PKxBmt3Q7UPT35SYlnPIdIk8&_nc_ohc=rlNoBdAGLFcAX-SKtbH&_nc_ht=scontent.fhan15-2.fna&oh=00_AfCGXBQCBiyhmsY5OQG8spxZv_eyJzwXHlBBVoGowCJn6A&oe=65E3A989",
       description:
         "White Glimmer granite is timeless and elegant with its warm white background and dramatic brown and black veins and specks. Use this beautiful natural stone to create stunning granite countertops, floors, and accent walls in both commercial and residential properties. Because it is low-maintenance and durable, this granite can be used for exterior projects as well as interior projects."
     },
@@ -1755,6 +1826,14 @@ const App = () => {
       accentcolor: "Cream, Sky",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-ice-granite.jpg",
+      image1:
+        "https://www.impressiveinteriordesign.com/wp-content/uploads/2019/11/t3-124.jpg",
+      image2:
+        "https://cdn.decoist.com/wp-content/uploads/2015/08/White-ice-granite-formica-laminate.jpg",
+      image3:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-ice-granite-a.jpg",
+      image4:
+        "https://cms.countertop.agency/uploads/white_ice_granite_island_2e3fa7ca94.jpg",
       description:
         "Pale steel grey and bright white are flecked with black in our White Ice granite, imported from Brazil. White Ice is a dramatic, modern choice for granite countertops, walls, and flooring, and is durable enough for use in commercial installations as well as residential ones. In addition to interior design, White Ice can be used out of doors as well."
     },
@@ -1766,6 +1845,14 @@ const App = () => {
       accentcolor: "White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-napoli-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-napoli-rowom-scene-a.jpg",
+      image2:
+        "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/59790411_1216983801815276_6156440971451039744_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeGwWnKD8BVG99kpD9iVyXdFdDLFZI4yXIN0MsVkjjJcgwUsjljqTSY7syN1XW927qs&_nc_ohc=Aqu1JSPoSzsAX_1zVrF&_nc_ht=scontent.fhan15-2.fna&oh=00_AfBKeZO25IIHlvLleKjLr93ZbUaf1lzzQrcqjrqgTD2vRA&oe=65E3E5D8",
+      image3:
+        "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/60019277_1216983725148617_2522601839615016960_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeHQNOx1p-lzpwDnU9nmNf2wxZl6koqGwXTFmXqSiobBdLGaV5AfPhruTPpN4AMmaV4&_nc_ohc=Woud44DA8LgAX9pi8aa&_nc_ht=scontent.fhan15-2.fna&oh=00_AfDB7_9y-TjFSaz7-gDI1iwyFnT5QT7kSziLTK77gtHl5A&oe=65E3D43E",
+      image4:
+        "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/59717488_1216983748481948_870120963549691904_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeFLQNnrMBOt90K96gz5vbzdiTk9pb_MBpOJOT2lv8wGk8wNUNA-0u5kFTcyii4KvEY&_nc_ohc=GhMFWJ4PIKQAX-h3h34&_nc_ht=scontent.fhan15-2.fna&oh=00_AfDx2gqEPh2BqD-YOb7g6ZeAx9iK5YN5Bq0LZyQ1DrnlPA&oe=65E3D467",
       description:
         "White Napoli: Features soft white undertones speckled with grey and black and hints of burgundy. Pair with white cabinets for a timeless look."
     },
@@ -1777,6 +1864,14 @@ const App = () => {
       accentcolor: "Cream, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-ornamental-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-ornamental-granite-b.jpg",
+      image2:
+        "https://www.lxhausys.com/us/blog/wp-content/uploads/2023/05/size_43ab86c1-4024-4684-adbc-f8c61b62e51f_Blog_1_25_1.jpg",
+      image3:
+        "https://greenvillecountertops.com/static/24568287484f228d07b84966c4c14d75/white-ornamental-granite-kitchen-countertops-with-island.jpg",
+      image4:
+        "https://eastcoastgranitecharlotte.com/_ipx/w_1080,q_75/https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fwhite_ornamental_kitchen_island_da25dea260.jpg?url=https%3A%2F%2Fcms.countertop.agency%2Fuploads%2Fwhite_ornamental_kitchen_island_da25dea260.jpg&w=1080&q=75",
       description:
         "White Ornamental is a low-variation white granite suitable for a wide array of interior and exterior design projects including granite countertops, accent walls, floors, backsplashes, and other architectural elements. This granite coordinates beautifully with other premium surfaces from MSI's collection including mosaics, natural stone tiles and pavers, and porcelain tiles."
     },
@@ -1788,6 +1883,14 @@ const App = () => {
       accentcolor: "Gray-Light",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-paradise-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7077/large_granite-white-paradise-installed-photo",
+      image2:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7075/large_granite-white-paradise-installed-photo",
+      image3:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-paradise-granite.jpg",
+      image4:
+        "https://titangranitestl.com/wp-content/uploads/2022/07/White-Paradise-Granite-Countertops-by-Titan-Granite.jpg",
       description:
         "White Paradise granite countertops from Brazil beautifully mix together waves of cool whites and warm beiges swirled with streaks of silvers and accented by bold black specks. The dreamy patterns and polished finishes in these natural stone slabs suit a wide range of design aesthetics for beautiful kitchens and bathrooms."
     },
@@ -1799,6 +1902,14 @@ const App = () => {
       accentcolor: "Cream",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-sand-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7082/large_granite-white-sand-installed-photo",
+      image2:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7081/large_granite-white-sand-installed-photo",
+      image3:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-sand-granite-a.jpg",
+      image4:
+        "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/219830531_2938721159677979_5686190336210799227_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFALGsWCwpMQbhS4LpRpzw7Oq33vPpWgW06rfe8-laBbQbKy1hAW3GqMI8JX2GwuP0&_nc_ohc=RwtIKGSILUUAX9eodKc&_nc_ht=scontent.fhan15-1.fna&oh=00_AfCx1updDaD4JBA0o7pKHBvcN-MA9XKjHiU4I6_tQp8mzw&oe=65C654AA",
       description:
         "White Sand granite is an elegant granite that features a soft creamy white background highlighted by gold and brown flecks. This durable and low maintenance granite is ideal for design projects in both residential and commercial properties. Create stunning granite countertops, accent walls, floors, and other design elements where the beauty of natural stone is desired."
     },
@@ -1810,6 +1921,14 @@ const App = () => {
       accentcolor: "Gray-Dark, White-Cool",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-sparkle-granite.jpg",
+      image1:
+        "https://ctsitemimages.s3.amazonaws.com/images/stone_image/uploaded/7086/large_granite-white-sparkle-installed-photo",
+      image2:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-sparkle-granite-a.jpg",
+      image3:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-sparkle-granite-b.jpg",
+      image4:
+        "https://pbs.twimg.com/media/Eq5Vl7wW8AATR18.jpg",
       description:
         "White Sparkle granite features cool white tones and grays highlighted by just a touch of sparkle. These elegant white granite slabs are durable enough to be used for exterior projects including outdoor kitchens, as well as a variety of interior projects in homes and commercial properties including granite countertops, accent walls, floors, and backsplashes."
     },
@@ -1821,6 +1940,14 @@ const App = () => {
       accentcolor: "Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-spring-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-spring-granite-a.jpg",
+      image2:
+        "https://columbusgranite.com/wp-content/uploads/2018/07/Slider-4.jpg",
+      image3:
+        "https://graniteselection.com/wp-content/uploads/2019/02/White-Spring-Granite1.jpg",
+      image4:
+        "https://st.houzz.com/simgs/5ff133d200c14077_8-2237/contemporary-kitchen.jpg",
       description:
         "White spring granite is a durable granite with the illusion of movement with its varying veining of whites, grays and deep reds. White Spring is recommended for interior and exterior projects including flooring, countertops, landscaping and wall applications."
     },
@@ -1832,6 +1959,14 @@ const App = () => {
       accentcolor: "Cream, Taupe",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-valley-granite.jpg",
+      image1:
+        "https://cdn.msisurfaces.com/images/roomscenes/medium/white-valley-granite-a.jpg",
+      image2:
+        "https://www.igscountertops.com/wp-content/uploads/White-Valley-Granite-1.jpg",
+      image3:
+        "https://www.granitemarblewa.com/wp-content/uploads/2017/06/maple-valley-wa-white-cabinet-kitchen-granite-marble-quartz-countertop.jpg",
+      image4:
+        "https://detroitstone.com/wp-content/uploads/2017/10/granite-kitchen-countertop-Chelsea-MI.jpg",
       description:
         "White Valley granite is durable and elegant. Use this stunning natural stone to create granite countertops, accent walls, floors, and to create other eye-catching architectural elements within the property. The soft white background blends beautifully with the dramatic gray veins that run throughout the slabs. Coordinates with other premium surfaces from MSI's collection."
     },
@@ -1843,6 +1978,14 @@ const App = () => {
       accentcolor: "Gray-Dark",
       image:
         "https://cdn.msisurfaces.com/images/colornames/thumbnails/white-wave-granite.jpg",
+      image1:
+        "https://dropinblog.net/34246798/files/featured/White_Wave_Granite_Worktop_for_Kitchen__Bathroom_and_Flooring.png",
+      image2:
+        "https://dropinblog.net/34246798/files/White_Wave_Granite_Kitchen_Worktop.png",
+      image3:
+        "https://www.igscountertops.com/wp-content/uploads/2017/06/White-Wave-Granite-Island.jpg",
+      image4:
+        "https://www.work-tops.com/cdn/shop/products/253d3BpZBP.jpg?v=1623671629&width=1152",
       description:
         "White Wave granite from Brazil is a durable polished slab granite of whites and gray with medium variation. White Wave is recommended for all commercial and residential projects including high traffic floors in commercial properties and all interior projects."
     }
@@ -1856,7 +1999,6 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="paymentoptions" element={<PaymentOptions />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/countertops" element={<CountertopCard data={cardData} />} />
           <Route path="/countertops/:name" element={<CardInfo data={cardData} />} />

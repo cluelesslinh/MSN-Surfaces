@@ -1,0 +1,12 @@
+.contactImgBox {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contactImg {
+    min-width: 100vmax;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0 -5em;
+}

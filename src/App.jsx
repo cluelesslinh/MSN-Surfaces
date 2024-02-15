@@ -305,7 +305,7 @@ const App = () => {
       primarycolor: "Brown",
       accentcolor: "Taupe",
       image:
-        "https://cdn.msisurfaces.com/images/colornames/thumbnails/azurite-granite.jpg",
+        "https://cdn.msisurfaces.com/images/colornames/thumbnails/azurite-granitsadwe.jpg",
       image1:
         "https://cdn.msisurfaces.com/images/roomscenes/medium/azurite-granite-b.jpg",
       image2:

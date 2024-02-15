@@ -18,7 +18,7 @@ const Home = () => {
                         <TopTitle>Sangsite</TopTitle>
                     </TopTitleBox>
                     <TopDescriptionBox>
-                        <TopDescription>Kitchen cabinets & countertops</TopDescription>
+                        <TopDescription>Kitchen countertops</TopDescription>
                     </TopDescriptionBox>
                 </Parallax>
             </section>
@@ -101,7 +101,7 @@ const Home = () => {
                         <MDBCol className="col-lg-4 col-md-5 col-8">
                             <a href="https://www.cambriausa.com/" target="_blank" rel="noreferrer">
                                 <div className="brandImgBox">
-                                    <img className="brandImg img-fluid" src="https://accentcountertops.com/wp-content/uploads/2020/09/Cambria-logo-positive_7.522x3.jpg" />
+                                    <img className="brandImg img-fluid" src="https://www.2020spaces.com/wp-content/uploads/2016/06/Logo_Cambria_300w.png" />
                                 </div>
                                 <div className="brandNameBox">
                                     <div className="brandName">Cambria</div>

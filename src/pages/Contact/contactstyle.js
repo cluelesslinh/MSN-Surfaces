@@ -55,5 +55,5 @@ font-weight: 400;
 letter-spacing: .075em;
 height: 10%;
 width: 75%;
-padding: 1em;
+padding: 1.5em;
 `;

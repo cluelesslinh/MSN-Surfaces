@@ -51,8 +51,19 @@
     font-weight: 600;
 }
 
+.quoteBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 0 0;
+    padding: 1em 0 1em 0;
+}
+
+.recQuote {
+    color: #1E2CFF;
+}
+
 .availabilityButton {
-    margin: 2em 0 1em 0;
     border: 2px solid black;
     text-align: center;
     font-size: 24px;
@@ -94,4 +105,21 @@
 
 .indicator.active {
     background: #666;
+}
+
+@media (max-width: 575px) {
+
+    .slabImgBox {
+        margin: 5% 0 3% 0;
+    }
+
+    .detailBox {
+        padding: 1.5em 0 1em 0;
+    }
+
+    .indicator {
+        cursor: pointer;
+        margin: 0 1em 3em 1em;
+    }
+
 }

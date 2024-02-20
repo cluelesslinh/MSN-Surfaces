@@ -9,16 +9,6 @@ import "./countertopinfo.scss";
 const CardInfo = ({ data }) => {
     const { name } = useParams();
 
-    const buttonStyle = {
-        width: "50px",
-        margin: "3.5em"
-    };
-
-    const properties = {
-        prevArrow: <button style={{ ...buttonStyle }}><svg fill="#000000" height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330" transform="rotate(180)" stroke="#000000" strokeWidth="16.5"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" stroke="#CCCCCC" strokeWidth="9.9"> <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001 c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213 C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606 C255,161.018,253.42,157.202,250.606,154.389z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001 c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213 C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606 C255,161.018,253.42,157.202,250.606,154.389z"></path> </g></svg></button>,
-        nextArrow: <button style={{ ...buttonStyle }}><svg fill="#000000" height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330" stroke="#000000" strokeWidth="16.5"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" stroke="#CCCCCC" strokeWidth="9.9"> <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001 c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213 C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606 C255,161.018,253.42,157.202,250.606,154.389z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001 c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213 C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606 C255,161.018,253.42,157.202,250.606,154.389z"></path> </g></svg></button>
-    }
-
     return (
         <>
 
@@ -38,7 +28,7 @@ const CardInfo = ({ data }) => {
                             </Parallax>
 
                             <MDBRow className="countertopBox">
-                                <MDBCol className="slabImgBox col-lg-4 col-6">
+                                <MDBCol className="slabImgBox col-lg-4 col-md-6 col-sm-6 col-12">
                                     <img className="slabImg img-fluid" src={item.image} />
                                 </MDBCol>
                                 <MDBCol className="countertopDetailBox col-lg-3 col-6">
@@ -58,19 +48,25 @@ const CardInfo = ({ data }) => {
                                 <MDBCol className="col-lg-4 col-12">
                                     <div className="descriptionTitle">Description: </div>
                                     <span>{item.description}</span>
-                                    <div>
-                                        <a href="mailto:sangsite13@gmail.com">
-                                            <button className="availabilityButton">Request Quote</button>
-                                        </a>
-                                    </div>
-                                    <div><center>* Receive within 24 hours *</center></div>
                                 </MDBCol>
                             </MDBRow>
 
+                            <MDBRow className="quoteBox">
+                                <MDBCol className="col-5">
+                                    <div className="recQuote"><center>* Receive quote within 24 hours *</center></div>
+                                </MDBCol>
+                                <MDBCol className="col-5">
+                                    <div>
+                                        <a href="mailto:sangsite13@gmail.com">
+                                            <button className="availabilityButton">Request Quote Now</button>
+                                        </a>
+                                    </div>
+                                </MDBCol>
+                            </MDBRow>
 
                             <Fade
-                                {...properties}
                                 indicators={() => <div className="indicator"></div>}
+                                arrows={false}
                                 duration={10000}
                                 pauseOnHover={true}
                                 canSwipe={true}

@@ -41,7 +41,7 @@ const Home = () => {
                         <MDBCol className="col-lg-4 col-md-5 col-8">
                             <a href="https://www.cosentino.com/usa/silestone/countertops/" target="_blank" rel="noreferrer">
                                 <div className="brandImgBox">
-                                    <img className="brandImg img-fluid" src="https://www.balduzzilumber.com/wp-content/uploads/silestone-logo.jpg" />
+                                    <img className="brandImg img-fluid" src="https://www.balduzzilumber.com/wp-content/uploads/silestone-logo.jpghttps://imgix.cosentino.com/wp-content/uploads/2021/05/SILESTONE-LOGO-2021-scaled-1-722x406.jpg" />
                                 </div>
                                 <div className="brandNameBox">
                                     <div className="brandName">Sile-Stone</div>

@@ -51,9 +51,6 @@ const HeadNavbar = () => {
                                 <li className="border-b border-gray-400 my-8 uppercase">
                                     <a href="/contact">Contact</a>
                                 </li>
-                                <li className="border-b border-gray-400 my-8 uppercase">
-                                    <a href="/about">About</a>
-                                </li>
                             </ul>
                         </div>
                     </section>
